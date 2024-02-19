@@ -7,7 +7,8 @@
 */
 int main(void)
 {
-chart c:
+
+char c;
 int i;
 long int li;
 long long int lli;
