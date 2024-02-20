@@ -9,6 +9,6 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("%d", +n);
+	printf("the valor of %d is positive\n", n);
 	return (0);
 }
