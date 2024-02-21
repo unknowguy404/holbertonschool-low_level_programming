@@ -11,9 +11,5 @@ for (c = 'a'; c <= 'z'; c++)
 {
 _putchar(c);
 }
-}
-int main(void)
-{
-print_alhabet();
-return (0);
+_putchar('\n');
 }
