@@ -1,10 +1,19 @@
 #include <stdio.h>
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- * Return: On success 1.
- */
-int _putchar(char c)
+ * main - Entry point
+ * Return: Always 0 (Success)
+ * Description: This program prints _putchar, followed by a new line
+*/
+int main(void)
 {
-return (write(1, &c, 1));
+putchar('_');
+putchar('p');
+putchar('u');
+putchar('t');
+putchar('c');
+putchar('h');
+putchar('a');
+putchar('r'); 
+putchar('\n');
+return (0);
 }
