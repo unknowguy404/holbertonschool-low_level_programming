@@ -11,3 +11,8 @@ return (1);
 else
 return (0);
 }
+
+int _isalpha(int c)
+{
+    return 0;
+}
