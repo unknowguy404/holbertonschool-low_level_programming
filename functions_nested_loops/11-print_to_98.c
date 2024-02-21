@@ -12,24 +12,15 @@ if (n < 98)
 {
 for (n = n; n < 98; n++)
 {
-_putchar(n / 10 + '0');
-_putchar(n % 10 + '0');
-_putchar(',');
-_putchar(' ');
+_putchar("%d, ", n);
 }
 }
-else
+else if (n > 98)
 {
 for (n = n; n > 98; n--)
 {
-_putchar(n / 10 + '0');
-_putchar(n % 10 + '0');
-_putchar(',');
-_putchar(' ');
+_putchar("%d, ", n);
 }
 }
-_putchar('9');
-_putchar('8');
-_putchar('\n');
+_putchar("98\n");
 }
-     
