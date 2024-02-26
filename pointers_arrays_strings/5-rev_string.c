@@ -1,13 +1,27 @@
 #include "main.h"
 /**
- * _islower - checks for lowercase character
- * @c: character to be checked
- * Return: 1 if c is lowercase, 0 otherwise
+ * rev_string - reverses a string
+ * @s: string to be reversed
  */
-int _islower(int c)
+void rev_string(char *s)
 {
-if (c >= 'a' && c <= 'z')
-return (1);
-else
-return (0);
+char tmp;
+int i, len, len1;
+
+len = 0;
+len1 = 0;
+
+while (s[len] != '\0')
+{
+len++;
+}
+
+len1 = len - 1;
+
+for (i = 0; i < len / 2; i++)
+{
+tmp = s[i];
+s[i] = s[len1];
+s[len1--] = tmp;
+}
 }
