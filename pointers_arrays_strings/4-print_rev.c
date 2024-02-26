@@ -13,6 +13,7 @@ while (s[len])
 
 len++;
 for (len--; len >= 0; len--)
-len--;
-return;
+putchar(s[len]);
+
+putchar('\n');
 }
