@@ -14,6 +14,7 @@ while (s[len])
 len++;
 
 for (len--; len >= 0; len--)
+
 len--;
 
 return;
