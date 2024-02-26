@@ -2,6 +2,7 @@
 /**
  * _puts - prints a string followed by a new line to stdout
  * @str: input string
+ * Rreturn: void
  */
 void _puts(char *str)
 {
