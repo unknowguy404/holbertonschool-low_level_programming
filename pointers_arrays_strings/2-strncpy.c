@@ -4,9 +4,7 @@
 * @n:bytes from src
  *@dest:string to apppend by src
  *@src: string to append by test
- *
  * Return: addres of dest
- *
 */
 char *_strncpy(char *dest, char *src, int n)
 {
