@@ -5,7 +5,6 @@
 *
 *Return: The encoded string.
 */
-char leet(char *s)
 char *leet(char *s)
 {
 int i, j;
