@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *_strncat - appends src to the dest string
+ **_strncpy - Write a function that copies a string.
 * @n:bytes from src
  *@dest:string to apppend by src
  *@src: string to append by test
@@ -17,5 +17,5 @@ for (; i < n; i++)
 {
 dest[i] = '\0';
 }
-return dest;
+return (dest);
 }
