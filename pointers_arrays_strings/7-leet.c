@@ -6,20 +6,20 @@
 *Return: The encoded string.
 */
 char leet(char *s)
+char *leet(char *s)
 {
 int i, j;
-char letters[] = "aAeEoOtTlL";
-char numbers[] = "4433007711";
+
+char *a = "aAeEoOtTlL";
+char *b = "4433007711";
 
 for (i = 0; s[i] != '\0'; i++)
 {
-for (j = 0; letters[j] != '\0'; j++)
+for (j = 0; j < 10; j++)
 {
-
-if (s[i] == letters[j])
+if (s[i] == a[j])
 {
-s[i] = numbers[j];
-break;
+s[i] = b[j];
 }
 }
 }
