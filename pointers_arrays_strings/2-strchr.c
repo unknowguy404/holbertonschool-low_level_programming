@@ -14,7 +14,5 @@ if (s[i] == c)
 {
 return (s + i);
 }
-s++;
 }
-return (s);
 }
