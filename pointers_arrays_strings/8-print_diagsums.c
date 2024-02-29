@@ -19,3 +19,4 @@ sum2 += a[(size - 1) * (i + 1)];
 }
 printf("%d, %d\n", sum1, sum2);
 }
+
