@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_strchr - function that locates a character in a string
+ **_strchr - function that locates a character in a string
  *@s:the string
  *@c:the first occurrence of the character
  * Return: string
@@ -12,5 +12,5 @@ for (i = 0; s[i] != '\0'; i++)
 {
 if (s[i] == c)
 }
-return (s);
+return NULL;
 }
