@@ -2,17 +2,23 @@
 #include <stdio.h>
 /**
  **_strchr - function that locates a character in a string
- *@s:the string
- *@c:the first occurrence of the character
- * Return: string
+*@s:the string
+*@c:the first occurrence of the character
+* Return: string
 */
 char *_strchr(char *s, char c)
 {
-int i;
-for (i = 0; s[i] != '\0'; i++)
+while (*s != '\0')
 {
-if (s[i] == c)
-return (s + i);
+if (*s == c)
+{
+return s;
 }
-return (NULL);
+s++;
+}
+if (c == '\0')
+{
+return s;
+}
+return NULL;
 }
