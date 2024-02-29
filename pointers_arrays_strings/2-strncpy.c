@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  **_strncpy - Write a function that copies a string.
-* @n:bytes from src
+ *@n:bytes from src
  *@dest:string to apppend by src
  *@src: string to append by test
  * Return: addres of dest
