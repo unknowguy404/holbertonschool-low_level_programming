@@ -8,16 +8,27 @@
  */
 int _sqrt_recursion(int n)
 {
-if (n == 0)
-{
-return (0);
+if (n < 0)
+return -1; // No se puede calcular la raíz cuadrada de un número negativo
+if (n == 0 || n == 1)
+return n; // La raíz cuadrada de 0 o 1 es el mismo número
+
+return calculate_sqrt(n, 1);
 }
-else if (n == 1)
+
+/**
+ * calculate_sqrt - auxiliary function to calculate square root
+ * @n: number to find the square root of
+ * @i: iterator for calculating square root
+ *
+ * Return: the square root of n
+ */
+int calculate_sqrt(int n, int i)
 {
-return (1);
-}
-else
-{
-return (_sqrt_recursion(n - 1) + 1);
-}
+if (i * i == n)
+return i;
+if (i * i > n)
+return -1; // No es un número entero
+
+return calculate_sqrt(n, i + 1);
 }
