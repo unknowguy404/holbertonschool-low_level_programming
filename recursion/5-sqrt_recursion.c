@@ -9,11 +9,11 @@
 int _sqrt_recursion(int n)
 {
 if (n < 0)
-return -1; // No se puede calcular la raíz cuadrada de un número negativo
+return (-1);
 if (n == 0 || n == 1)
-return n; // La raíz cuadrada de 0 o 1 es el mismo número
+return (n);
 
-return calculate_sqrt(n, 1);
+return (calculate_sqrt(n, 1));
 }
 
 /**
@@ -26,9 +26,8 @@ return calculate_sqrt(n, 1);
 int calculate_sqrt(int n, int i)
 {
 if (i * i == n)
-return i;
+return (i);
 if (i * i > n)
-return -1; // No es un número entero
-
-return calculate_sqrt(n, i + 1);
+return (-1);
+return (calculate_sqrt(n, i + 1));
 }
