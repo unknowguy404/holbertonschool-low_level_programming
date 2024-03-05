@@ -8,12 +8,14 @@
  */
 int main(int argc, char *argv[])
 {
-int total;
+char total;
+
+if (argc != 3)
 {
-pritnf("Error\n");
+printf("Error\n");
 return (1);
 }
-total = int (argv[1]) * int (argv[2]);
+total = atoi(argv[1]) * atoi(argv[2]);
 printf("%d\n", total);
 return (0);
 }
