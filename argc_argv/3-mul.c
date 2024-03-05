@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *
-*/
+ * main - main function
+ * @argc: number of arguments
+ * @argv: number of arguments
+ * Return: number of arguments
+ */
 int main(int argc, char *argv[])
 {
 int value = atoi(argv[1]);
