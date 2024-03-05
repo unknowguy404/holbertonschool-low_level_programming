@@ -1,6 +1,7 @@
 #include <stdio.h>
+#inlcude "main.h"
 /**
- *main - main function
+ * main - main function
  * @argc: number of arguments
  * @argv: number of arguments
  * Return: number of arguments* main - main function
