@@ -8,6 +8,8 @@
  */
 int main(int argc, char *argv[])
 {
+argc++;
+argc--;
 int value = atoi(argv[1]);
 int value2 = atoi(argv[2]);
 int total = value * value2;
