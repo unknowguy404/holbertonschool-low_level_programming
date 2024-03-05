@@ -1,5 +1,5 @@
 #include <stdio.h>
-#inlcude "main.h"
+#include "main.h"
 /**
  * main - main function
  * @argc: number of arguments
