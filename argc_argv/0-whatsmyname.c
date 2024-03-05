@@ -4,7 +4,7 @@
  * main - main function
  * @argc: number of arguments
  * @argcv: number of arguments
- * Returns: number of arguments
+ * Return: number of arguments
 */
 int main(int argc, char *argv[])
 {
