@@ -5,7 +5,6 @@
  * create_array - create an array from a list of integers
  * @size: size of the array
  * @c: the array to be created
- *
  * Return: the new array
 */
 char *create_array(unsigned int size, char c)
