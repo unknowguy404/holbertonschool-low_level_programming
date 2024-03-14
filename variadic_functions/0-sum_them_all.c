@@ -3,7 +3,8 @@
 
 /**
  * sum_them_all - function with two arguments
- * @n: int type first argument
+ * @n: int type first argume t
+ *
  * Description: returns the sum of all its parameters
  * Return: value of sum or 0
  */
