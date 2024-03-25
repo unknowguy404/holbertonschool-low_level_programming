@@ -1,4 +1,4 @@
-#include <stdlib.h>
+
 #include "lists.h"
 
 /**
@@ -7,16 +7,17 @@
  *
  * Return: number of elements in h
  */
-size_t print_list(const list_t *h)
+size_t list_len(const list_t *h)
 {
 	size_t n = 0;
 
 	while (h)
 	{
-		printf("%d ", h->n);
-		h = h->next;
 		n++;
+		h = h->next;
+		if (!h)
+			break;
 	}
-	printf("\n");
+
 	return (n);
 }
