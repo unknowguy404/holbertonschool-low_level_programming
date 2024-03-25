@@ -15,9 +15,6 @@ size_t print_list(const list_t *h)
 	{
 		n++;
 		h = h->next;
-		if (!h)
-			break;
 	}
-
 	return (n);
 }
