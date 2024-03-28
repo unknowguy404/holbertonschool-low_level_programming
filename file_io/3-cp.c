@@ -71,6 +71,7 @@ int main(int argc, char *argv[])
 	to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
 	do
+
 	{
 		if (from == -1 || r == -1)
 		{
